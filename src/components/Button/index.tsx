@@ -6,7 +6,7 @@ const Button = ({
   className,
 }: {
   text: string;
-  onClick: () => void;
+  onClick?: () => void;
   bgColor?: string;
   showArrow?: boolean;
   className?: string;
