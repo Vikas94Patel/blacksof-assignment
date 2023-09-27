@@ -8,7 +8,7 @@ const Input = ({
   onChange,
   className,
 }: {
-  onChange: () => void;
+  onChange?: () => void;
   placeholder?: string;
   className?: string;
   required?: boolean;
